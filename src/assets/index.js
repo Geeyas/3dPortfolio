@@ -32,8 +32,6 @@ import close from "./close.svg";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import threejs from  "./tech/threejs.svg";
-
-import linkedin from './linkedin.png';
 import resume from './docs/Resume.pdf';
 
 
