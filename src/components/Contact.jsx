@@ -6,6 +6,7 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc'
 import { slideIn } from "../utils/motion";
 import { EarthCanvas } from './canvas'
+import { resume } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -95,15 +96,27 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mx-8'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+
         </form>
+        <br />
+        <a href='https://www.linkedin.com/in/geeyas/' target="_blank">
+          <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mx-8'
+          >View LinkedIn</button>
+        </a>
+        <br />
+        <br />
+        <a href={resume} download='Geeyas_Acharya_Resume'>
+          <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mx-8'
+          >Download Resume</button>
+        </a>
       </motion.div>
 
-      <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className="xl:flex-1 xl
-      h-auto md:h-[550px] h-[350px]">
+      <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className="xl:flex-1 xl md:h-[550px] h-[350px]">
         <EarthCanvas />
       </motion.div>
     </div>

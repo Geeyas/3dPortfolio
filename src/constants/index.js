@@ -22,7 +22,6 @@ import {
     mcgarage,
     threejs,
     lqui,
-    openLink
 } from "../assets";
 
 export const navLinks = [
@@ -37,14 +36,6 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact",
-    },
-    {
-        id: "socialmedia",
-        title: "Social Media",
-    },
-    {
-        id: "resume",
-        title: "Resume",
     },
 ];
 
