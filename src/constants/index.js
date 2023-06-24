@@ -20,7 +20,9 @@ import {
     electPort,
     greenfoot,
     mcgarage,
-    threejs
+    threejs,
+    lqui,
+    openLink
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +37,14 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact",
+    },
+    {
+        id: "socialmedia",
+        title: "Social Media",
+    },
+    {
+        id: "resume",
+        title: "Resume",
     },
 ];
 
@@ -166,6 +176,19 @@ const experiences = [
             "Dealing with customer’s technical issues and fixing it.",
             "Customers to find suitable technological devices .",
             "Working at the counter (Point of Sale) and handling cash.",
+        ],
+    },
+    {
+        title: "Flutter Internship",
+        company_name: "Liquimech, Canning Vale, Perth",
+        icon: lqui,
+        iconBg: "#E6DEDD",
+        date: "July 2022 - Dec 2022",
+        points: [
+            "Cusotmer Service",
+            "Cash Handling",
+            "Store opening and closing responsibilities",
+
         ],
     },
 ];

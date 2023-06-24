@@ -20,6 +20,8 @@ import typescript from "./tech/typescript.png";
 import momosCafe from "./company/momosCafe.png";
 import officeworks from "./company/officeworks.png";
 import gds from "./company/gds.png";
+import lqui from './company/lquimech.png';
+import openLink from './open.png';
 
 import firstPort from "./firstPort.png";
 import electPort from "./electPort.png";
@@ -30,7 +32,6 @@ import close from "./close.svg";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import threejs from  "./tech/threejs.svg";
-
 
 
 export {
@@ -61,5 +62,7 @@ export {
   momosCafe,
   officeworks,
   gds,
-  java
+  java,
+  lqui,
+  openLink
 };
